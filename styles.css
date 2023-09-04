@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #fff;
+    height: fit-content;
+    width:fit-content;
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px #fff;
+}
+.heading
+{
+color: seagreen;
+text-align: center;
+}
+h2{
+    font-size: 60px;
+}
+h1 {
+    font-size: 72px;
+}
+.btn-glow
+{
+    outline: none;
+    font-size: 32px;
+    padding: 15px 15px;
+    border-radius: 16px;
+    margin: 25px;
+    color: #fdfdfd;
+    cursor: pointer;
+    background-color: #e7a096;
+    box-shadow: 0 0 0 0 #f8344e;
+    -webkit-animation: glow 1.4s linear infinite;
+            animation: glow 1.4s linear infinite;
+}
+.box #stopwatch{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    font-size: 72px;
+    padding:15px;
+}
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+/* Orange */
+.warning {
+  border-color: #02fad9;
+  color: rgb(13, 173, 194);
+}
+.warning:hover {
+  background: #ffbb00;
+  color: white;
+}
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
